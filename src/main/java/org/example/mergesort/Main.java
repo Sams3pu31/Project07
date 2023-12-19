@@ -8,7 +8,6 @@ public class Main {    public static void main(String[] args) {
     String[] arr = {"cat", "orange", "elephant", "bird"};
     System.out.println("Исходный массив: " + Arrays.toString(arr));
 
-    // Вызов метода для сортировки
     mergeSort(arr);
 
     System.out.println("Отсортированный массив: " + Arrays.toString(arr));
